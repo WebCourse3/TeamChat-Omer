@@ -1,0 +1,13 @@
+ul {
+  padding: 0;
+  margin-bottom: 1%;
+}
+
+#feed {
+padding:0;
+list-style-type: none;
+}
+
+#feed li{
+  list-style-type: none;
+}

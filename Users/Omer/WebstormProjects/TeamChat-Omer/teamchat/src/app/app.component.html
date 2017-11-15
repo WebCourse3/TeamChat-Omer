@@ -1,0 +1,23 @@
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink="/dashboard">Team Chat</a>
+
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li ><a href="/chat/oper">Operations</a></li>
+        <li><a href="/chat/devops">DevOps</a></li>
+        <li><a href="/chat/develop">Develop</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="/login">Login</a></li>
+        <li><a routerLink="/signup">Register</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container-fluid -->
+</nav>
+<div id="routing_area" class="col-xs-offset-2 col-xs-10">
+  <router-outlet></router-outlet>
+</div>
+

@@ -1,0 +1,25 @@
+<div class="row" style="text-align: center">
+  <div class="col-xs-offset-3 col-xs-4">
+    <div class="panel panel-primary">
+      <div class="panel-heading">Login</div>
+      <form name="form" (ngSubmit)="Login()" #f="ngForm" novalidate>
+        <div class="panel-body">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="input-group">
+                <span class="input-group-addon">Username</span>
+                <input name="user_input" type="text" class="form-control" [(ngModel)]="username">
+              </div>
+              <br>
+              <div class="input-group">
+                <span class="input-group-addon">Password</span>
+                <input name="pswd_input" type="password" class="form-control" [(ngModel)]="password">
+              </div>
+            </div>
+          </div>
+          <input type="submit" class="btn btn-primary">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
